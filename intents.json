@@ -1,0 +1,39 @@
+{"intents":   [
+    {"tag": "bienvenida",
+    "patterns": ["hola", "buenas", "buenos dias", "queria hacer una consulta", "como va?", "como estas?"],
+    "responses": ["Hola!", "Buen día!", "En qué te puedo ayudar?"]
+  },
+
+
+    {"tag": "despedida",
+   "patterns": ["chau", "nos vemos", "hasta luego", "saludos", "adios"],
+   "responses": ["Chau, nos vemos!", "Hasta pronto!", "Adios!", "Hablamos después!"]
+ },
+
+
+    {"tag": "edad",
+   "patterns": ["que edad tenés?", "cuantos años tenés?", "cuál es tu edad?", "sos adulto?"],
+   "responses": ["Tengo cien años!", "No te sabría decir bien", "La misma que vos!"]
+ },
+
+    {"tag": "nombre",
+    "patterns": ["como te llamás?", "cual es tu nombre?", "como te dicen?"],
+    "responses": ["Me llamo TETRO!", "Me dicen TETRO", "Soy TETRO, el asistente de Tomás!"]
+  },
+
+    {"tag": "ocupacion",
+    "patterns": ["a que se dedica Tomas", "que hace Tomas", "de que trabaja?", "a que se dedican?", "cual es su ocupacion?"],
+    "responses": ["Tomás es Licenciado en Psicología", "Es Psicólogo, egresado de la UBA!", "Se especializa en atención de pacientes con depresión y ansiedad"]
+  },
+
+
+    {"tag": "turno",
+    "patterns": ["me gustaría sacar turno", "quiero sacar un turno", "turno"],
+    "responses": ["Para sacar un turno con Tomás, enviá un correo a tomasboggio@hotmail.com o enviá un WhatsApp al número +541160088239"]
+  },
+
+    {"tag": "atencion",
+    "patterns": ["que dias atiende?", "cuando atiende?", "dias de atencion", "cuando puedo ir?"],
+    "responses": ["Los días de atención son los lunes a viernes de 08:00 a 17:00 Hs!", "Podés ubicarlo de Lunes a Viernes, a partir de las 08:00 Hrs!"]
+  }
+]}
